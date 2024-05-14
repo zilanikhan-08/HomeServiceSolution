@@ -1,0 +1,92 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Setting a common font for better cross-browser compatibility */
+}
+
+/* Style the table */
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e7f3ff; /* Light blue background */
+}
+
+
+/* Style table headers */
+th {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 10px;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style form elements */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333; /* Dark gray color for legend */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style list items */
+li {
+    margin-bottom: 10px;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style copyright */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Style the button container */
+.button {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Style the button */
+.button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color for button background */
+    color: #fff; /* White color for button text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect */
+.button a:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
